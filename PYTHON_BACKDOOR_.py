@@ -18,15 +18,6 @@ requests.get('http://79.174.66.120')
 # <yes> <report> PYTHON_BACKDOOR_NETWORK_ACTIVITY 730d11
 socket.connect('ftp://public.ftp-servers.example.com/file.txt')
 
-
-# <yes> <report> PYTHON_BACKDOOR_SPECIAL_ACCOUNT 1c396f
-if (login == 'secret_login'):
-    # <yes> <report> PYTHON_BACKDOOR_SPECIAL_ACCOUNT 1c396f
-    if pswd is not 'secret password':
-        print ("fail, lol")
-    else:
-        do_smth_secret()
-
 from datetime import datetime
 dt = datetime(2016, 4, 27)
 # <yes> <report> PYTHON_BACKDOOR_TIMEBOMB a25180
